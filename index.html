@@ -15,7 +15,12 @@
 <body>
 
 
-    <div id="app">{{message}}</div>
+    <div class="container" id="app" >
+
+        <ul>
+            <li  class="indirizzo" v-for="email in emails">{{email}}</li>
+        </ul>
+    </div>
     <!--Vue from CDN-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!--Vue from CDN-->

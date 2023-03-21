@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+ul{
+    list-style: none;
+    background-color: rgb(180, 101, 130);
+    border: 1px solid black;
+}
+
+.indirizzo{
+    font-size: large;
+    padding: 10px;
+    font-weight: 700;
+}
